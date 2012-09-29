@@ -9,8 +9,10 @@ Starts you with:
   
   - twitter bootstrap
   - jquery
-  - main css file
+  - peewee
+  - settings.py
   - header menu
+  - main.css
   - admin panel (flask-admin w/ auth)
   - login view
   - user model (admin setup and ready to use)
