@@ -39,6 +39,13 @@ def setup():
     for table in tables:
         try:
             table.create_table()
+            if User == table:
+                # add an admin user
+                User.insert(
+                    username='admin',
+                    password='admin'
+                ).execute()
+                pass
         except sqlite3.OperationalError:
             # table may already exist
             pass
