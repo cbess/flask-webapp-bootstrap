@@ -5,6 +5,8 @@ Flask webapp w/ admin template project.
 
 It is a template for a flask webapp.
 
+Used by: [https://github.com/cbess/inventory-checkin](https://github.com/cbess/inventory-checkin/)
+
 Starts you with:
   
   - twitter bootstrap
